@@ -24,3 +24,22 @@ function bubbleSort(array) {
   
   }
   
+  // solution 2 
+
+  function bubbleSort(array) {
+    // Write your code here.
+      let temp; 
+      
+      for(let i = 0; i < array.length; i++){
+          for(let j = i + 1; j < array.length; j++){
+            if(array[i] > array[j]){
+                    temp = array[j]
+                    array[j] = array[i]
+                      array[i] = temp
+              }
+          }
+      }
+        return array 
+      
+  }
+  

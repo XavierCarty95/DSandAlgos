@@ -16,7 +16,7 @@ function bubbleSort(array) {
    } 
     return array 
   }
-  
+  [1,3,4,8,9,10]
   function swap(i , j , array) {
      const temp = array[j]
        array[j] = array[i]

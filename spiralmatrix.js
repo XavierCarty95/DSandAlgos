@@ -1,7 +1,7 @@
-/**
- * @param {number[][]} matrix
- * @return {number[]}
- */
+// "/**
+//  * @param {number[][]} matrix
+//  * @return {number[]}
+//  */
 var spiralOrder = function(matrix) {
     let result = []
 let rowBegin = 0 

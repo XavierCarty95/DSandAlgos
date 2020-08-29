@@ -1,14 +1,22 @@
-var confusingNumber = function(N) {
-    const confused = new Set([0, 1, 6, 8, 9]);
-    let flag = true;
-    const arr = N.toString().split('').map(n => {
-        if(!confused.has(Number(n))) {
-            flag = false;
-            return n;
-        }
-        if(n === '6') return '9';
-        if(n === '9') return '6';
-        return n;
-    });
-    return flag && !(arr.reverse().join('') === N.toString());
-};
+
+ const rotate = (matrix) => {
+  
+  let size = matrix.length - 1 
+  
+  for(let layer = 0; layer < Math.floor(matrix.length/2); layer++){
+    for(let i = layer ; i < size - layer; i++){
+      let top = matrix[layer][i] 
+      let right = matrix[i][size-layer]
+      let bottom = matrix[size-layer][size-i]
+      let left = matrix[size-i][layer]
+      
+      
+      matrix[layer][i] = left 
+        matrix[i][size-layer] = top 
+      matrix[size-layer][size-i] = right 
+        matrix[size-i][layer] = bottom 
+      
+     }
+  }
+  return matrix
+}

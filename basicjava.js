@@ -1,7 +1,7 @@
 
-public class MasterJavaJ {
+class MasterJavaJ {
 
-	public static void main(String[] args) {
+	 static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a; 
 		boolean b; 

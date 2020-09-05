@@ -1,9 +1,8 @@
-public class MasterJavaJ {
+class MasterJavaJ {
 
-	public static void main (String[] args) {
-	       
-		 
-		double grades[] = {95.4, 85.3 , 69.3, 88.6 , 87.5 , 23.4, 100.23};
+	public static void main (final String[] args) {
+
+        final double grades[] = { 95.4, 85.3, 69.3, 88.6, 87.5, 23.4, 100.23 };
 		double max = grades[0];
 		
 		

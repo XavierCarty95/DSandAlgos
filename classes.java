@@ -1,7 +1,7 @@
 
 
 
-public class MasterJavaJ {
+class MasterJavaJ {
 
 	public static void main (String[] args) {
 	

@@ -1,5 +1,11 @@
 
-		  int temperature = 85; 
+		
+class MasterJavaJ {
+
+	public static void main (String[] args) {
+		
+		
+		int temperature = 85; 
 		  boolean sunny = false; 
 		  
 		  
@@ -22,3 +28,5 @@
 				 
 			  }
 		  }
+		}
+}

@@ -1,5 +1,5 @@
 class Solution {
-    public void duplicateZeros(int[] arr) {
+    public void duplicateZeros(final int[] arr) {
         int possibleDups = 0;
         int length_ = arr.length - 1;
 
@@ -12,7 +12,7 @@ class Solution {
             if (arr[left] == 0) {
 
                 // Edge case: This zero can't be duplicated. We have no more space,
-                // as left is pointing to the last element which could be included  
+                // as left is pointing to the last element which could be included
                 if (left == length_ - possibleDups) {
                     // For this zero we just copy it without duplication.
                     arr[length_] = 0;
@@ -24,7 +24,7 @@ class Solution {
         }
 
         // Start backwards from the last element which would be part of new array.
-        int last = length_ - possibleDups;
+        final int last = length_ - possibleDups;
 
         // Copy zero twice, and non zero once.
         for (int i = last; i >= 0; i--) {

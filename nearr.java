@@ -95,8 +95,4 @@ public class Array {
     return -1;
   }
 
-  public void print() {
-    for (int i = 0; i < count; i++)
-      System.out.println(items[i]);
-  }
-}
+

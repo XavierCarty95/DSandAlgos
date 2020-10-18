@@ -3,7 +3,7 @@ class Solution {
          return merge(t1, t2);
     }
     
-    private TreeNode merge(TreeNode node1, TreeNode node2){
+    private TreeNode merge(TreeNode node2, TreeNode node1){
 
         if(node1 == null && node2 == null)
             return null;

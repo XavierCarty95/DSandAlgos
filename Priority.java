@@ -65,7 +65,7 @@ public class PriorityQueues {
 	}
 	
 	public String print() {
-		return Arrays.toString(queue);
+	
 	}
 	
 	

@@ -70,3 +70,21 @@ public class PriorityQueues {
 	
 	
 }
+
+Testing; 
+
+Send you a ruby file and 
+two test files 
+make sure rspec 
+run locally within 
+two files ruby file is awful.
+
+find that the test fail 
+get the test to pass;
+just keep talking; 
+
+uses view , elixir , C#
+
+questions prepared; 
+engineers at the 
+

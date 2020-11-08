@@ -37,7 +37,7 @@ class CashRegister
             return self.total
         else 
             self.total -= self.last_item
-            # self.items.pop
+           
             return self.total
         end
     

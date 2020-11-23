@@ -1,4 +1,4 @@
-const Queue = require('./Queue');
+"const Queue = require('./Queue');
 
 const load = flights => {
     const runway = new Queue(3);
